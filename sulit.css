@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+header {
+    background-color: rgb(104, 72, 24);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    height: 9vh;
+}
+
+header .logo {
+    font-family: 'Teko';
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+header .menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    padding-bottom: -10px;
+    margin-top: -40px;
+}
+
+ul li {
+    display: inline-block;
+    float: right;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 141, 32);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+ul li a:hover{
+    padding: 10px 20px;
+    background-color: rgb(212, 163, 27);
+    color: white;
+    box-shadow: 0px 1px 18px white
+}
+
+.login{
+    margin-left: -15px;
+    border-radius: 20px;
+}
+/* End Header */
+
+/* Content */
+.one {
+    background-image: url(https://wallpaperaccess.com/full/1884665.jpg);
+    background-size: cover;
+    max-width: 1349px;
+    height: 600px;
+    color: black;
+}
+
+.greet h2 {
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.GOOD h1 {
+    font-family: initial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 95px;
+}
+
+.foreword h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgba(243, 177, 54, 0.849);
+    margin: 450px;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.contact-us :hover{
+    background-color:  rgb(240, 176, 57);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 18px white
+}
+/* End Content */
+
+/* Footer */
+footer{
+    background-color: rgba(83, 68, 21, 0.842);
+    text-align: center;
+}
+
+footer h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+}
+/* End Footer */
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    .one .greet h2{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+
+    .GOOD h1{
+        font-size: 70px;
+        margin-left: 110px;
+    }
+
+    .contact-us a{
+        margin-left: 230px;
+    }
+}
+/* End Tablet */
+
+
+/* Handphone */
+@media screen and (max-width: 576px){
+    ul li{
+        padding: 25px 10px;
+    }
+
+    .menu ul li a{
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .one .greet h2{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+
+    .one .greet h1{
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .foreword p{
+        font-size: 17px;
+    }
+    
+    .contact-us a{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+}
+/* End Handphone */
